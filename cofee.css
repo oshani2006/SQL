@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%), url(3.jpg);
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	overflow: hidden;
+	height: 100vh;
+}
+.navbar{
+	width: 1495px;
+	height: 75px;
+	margin: auto;
+}
+.icon{
+	float: left;
+	height: 70px;
+}
+.logo{
+	font-size: 75px;
+	color: floralwhite;
+	font-family: forte;
+	padding-left: 10px;
+	float: left;
+	padding-top: 0px;
+}
+.titlebar{
+	width: 500px;
+	float: right;
+	height: 70px;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+ul li{
+	list-style: none;
+	margin-right: 30px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+	color: darkred;
+}
+.body{
+	height: 40px;
+	padding: 80px;
+}
+.title-1{
+	font-size: 76px;
+	color: #fff;
+	font-weight: 600;
+}
+.body .paragraph{
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: white;
+}
+.body .order{
+	width: 160px;
+	height: 40px;
+	background: floralwhite;
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .4s ease;
+}
+.body .order a{
+	text-decoration: none;
+	color: black;
+	transition: .3s ease;
+}
+.order:hover{
+	background-color: darkred;

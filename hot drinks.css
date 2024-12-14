@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.price{
+	width: 200px;
+	height: 25px;
+	background: floralwhite;
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .4s ease;
+}
+.price a{
+	text-decoration: none;
+	color: black;
+	transition: .3s ease;
+}
+.price:hover{
+	background-color: hotpink;

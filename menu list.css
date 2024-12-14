@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.list{
+	width: 200px;
+	height: 25px;
+	background: floralwhite;
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .4s ease;
+}
+.list a{
+	text-decoration: none;
+	color: black;
+	transition: .3s ease;
+}
+.list:hover{
+	background-color: hotpink;
+}
